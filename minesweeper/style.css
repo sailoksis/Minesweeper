@@ -1,15 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  border: 0;
   font-size: inherit;
   font-family: inherit;
   line-height: inherit;
   color: inherit;
   box-sizing: border-box;
-  background: none;
-  border: none;
-  outline: none;
   text-decoration: none;
 }
 
@@ -63,4 +59,59 @@ img, canvas, ::before, ::after {
   display: block;
 }
 
-/* Main code *//*# sourceMappingURL=style.css.map */
+/* Menu code */
+#body > * {
+  transition: 4s;
+}
+
+form {
+  padding: 30px 50px;
+}
+form th, form td {
+  padding: 20px 20px;
+}
+
+th:nth-child(n+2),
+td:nth-child(n+2) {
+  text-align: center;
+}
+
+input {
+  padding: 5px 10px;
+  text-align: center;
+  accent-color: red;
+}
+
+form > button {
+  margin: 25px auto;
+  display: block;
+}
+form > button label {
+  display: block;
+  padding: 10px 30px;
+}
+
+main {
+  background: rgb(221, 176, 176);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main header {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+main header button label {
+  display: block;
+  padding: 5px 20px;
+}
+
+output {
+  font-size: 26px;
+  padding: 6px 12px;
+  color: red;
+  background-color: #000;
+}
+
+/* Game code tiles*//*# sourceMappingURL=style.css.map */
