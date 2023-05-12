@@ -1,1 +1,66 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+textarea {
+  resize: none;
+}
+
+li {
+  list-style: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:link, :visited {
+  text-decoration: none;
+  color: unset;
+}
+
+button {
+  cursor: pointer;
+}
+
+img, canvas, ::before, ::after {
+  display: block;
+}
+
+/* Main code *//*# sourceMappingURL=style.css.map */
