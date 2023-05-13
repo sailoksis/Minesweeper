@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const flagsLeft = document.querySelector('#flags-left');
   const result = document.querySelector('#result');
   let width = 10;
-  let bombAmount = 1;
+  let bombAmount = 3;
   let flags = 0;
   let squares = [];
   let isGameOver = false;
@@ -53,12 +53,14 @@ document.addEventListener('DOMContentLoaded', () => {
       // Normal click
       square.addEventListener('click', function (e) {
         click(square);
+        moves++;
       });
 
       // Ctrl and left click
       square.oncontextmenu = function (e) {
         e.preventDefault();
         addFlag(square);
+        moves++;
       };
     }
 
