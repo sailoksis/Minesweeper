@@ -22,12 +22,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const flagsLeft = document.querySelector('#flags-left');
   const result = document.querySelector('#result');
   let width = 10;
-  let bombAmount = 3;
+  let bombAmount = 10;
   let flags = 0;
   let squares = [];
   let isGameOver = false;
-  let startTime = 0; // дописать функционал для отслеживания времени игры
-  let moves = 0;// дописать функционал для кликов 
+  let startTime = 0;
+  let moves = 0;
  
 
 
